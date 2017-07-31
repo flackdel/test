@@ -1,5 +1,4 @@
 <context>
-    
     <input pattern="(hi|hello) *">
         <!-- Greet the user if we know his/her name -->
         <output value="Hello $UserName!" if="full($UserName)"/>
@@ -15,5 +14,4 @@
             </input>
         </context>
     </input>
-    
 </context>
